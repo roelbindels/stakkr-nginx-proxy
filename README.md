@@ -15,5 +15,5 @@ acme_ca_uri=https://acme-staging.api.letsencrypt.org/directory
 ```
 
 
-# sugar-install
+# nginx-proxy command
 Use `lamp nginx-proxy` to add a second instance to the master nginx setup.
