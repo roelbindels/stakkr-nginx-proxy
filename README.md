@@ -4,7 +4,7 @@ Plugin made by Inet Process to setup any webservice behind a nginx proxy with ce
 __WARNING: The plugin directory must be named `nginx_proxy`__ (complete path: plugins/nginx_proxy`)
 
 # Installation
-Clone the repository in the plugins/ directory of your docker-lamp
+Clone the repository in the plugins/ directory of your marina setup.
 
 You also need to add to your compose.ini:
 ```ini
