@@ -15,4 +15,4 @@ acme_ca_uri=https://acme-staging.api.letsencrypt.org/directory
 ```
 
 # nginx-proxy command
-Use `maarina nginx-proxy` to add a second instance to the master nginx setup.
+Use `marina nginx-proxy` to add a second instance to the master nginx setup.
