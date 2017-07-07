@@ -1,4 +1,4 @@
-# Sugarcli Plugin for inetprocess/docker-lamp
+# Nginx proxy Plugin for inetprocess/marina
 Plugin made by Inet Process to setup sugarcrm behind a nginx proxy with certbot encryption
 
 __WARNING: The plugin directory must be named `nginx_proxy`__ (complete path: plugins/nginx_proxy`)
