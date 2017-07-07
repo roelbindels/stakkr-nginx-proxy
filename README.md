@@ -1,5 +1,5 @@
 # Nginx proxy Plugin for inetprocess/marina
-Plugin made by Inet Process to setup sugarcrm behind a nginx proxy with certbot encryption
+Plugin made by Inet Process to setup any webservice behind a nginx proxy with certbot encryption
 
 __WARNING: The plugin directory must be named `nginx_proxy`__ (complete path: plugins/nginx_proxy`)
 
@@ -14,6 +14,5 @@ admin_email=admin@inetprocess.com
 acme_ca_uri=https://acme-staging.api.letsencrypt.org/directory
 ```
 
-
 # nginx-proxy command
-Use `lamp nginx-proxy` to add a second instance to the master nginx setup.
+Use `maarina nginx-proxy` to add a second instance to the master nginx setup.
