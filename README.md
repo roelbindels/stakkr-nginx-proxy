@@ -1,4 +1,4 @@
-# Nginx proxy Plugin for inetprocess/stakkr
+# Nginx proxy Plugin for https://github.com/edyan/stakkr/
 Plugin made by Roel Bindels (iNet Process) to setup any webservice behind a nginx proxy with certbot encryption. Original setup is inspired by the nginx proxy setup from Jason Wilder. (https://github.com/jwilder/nginx-proxy)
 
 __WARNING: The plugin directory must be named `nginx_proxy`__ (complete path: plugins/nginx_proxy`)
