@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='StakkrNginxProxy',
-    version='1.1',
+    version='3.5',
     packages=['nginx_proxy'],
     entry_points='''
         [stakkr.plugins]
