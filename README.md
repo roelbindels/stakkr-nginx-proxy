@@ -37,6 +37,7 @@ acme_ca_uri=https://acme-v01.api.letsencrypt.org/directory
 Now run;
 ```
 stakkr refresh-plugins
+stakkr start
 ```
 
 # Multiple stakkr environment on a single host.
