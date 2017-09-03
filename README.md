@@ -1,10 +1,10 @@
-# Nginx proxy Plugin for https://github.com/edyan/stakkr/
-Plugin made by Roel Bindels (iNet Process) to setup any webservice behind a nginx proxy with certbot encryption. Original setup is inspired by the nginx proxy setup from Jason Wilder. (https://github.com/jwilder/nginx-proxy)
+# Nginx proxy Plugin for [STAKKR](https://github.com/edyan/stakkr/)
+Plugin made by Roel Bindels (iNet Process) to setup any webservice behind a nginx proxy with certbot encryption. Original setup is inspired by the nginx proxy setup from [Jason Wilder](https://github.com/jwilder/nginx-proxy).
 
 __WARNING: The plugin directory must be named `nginx_proxy`__ (complete path: plugins/nginx_proxy`)
 
 # Setup Stakkr
-To use the plugin, a stakkr environment has to setup prior to using the plugin. Please check the manual for full installation notes. http://stakkr.readthedocs.io/en/latest/pages/installation.html
+To use the plugin, a stakkr environment has to setup prior to using the plugin. Please check the manual for full [installation notes](http://stakkr.readthedocs.io/en/latest/pages/installation.html).
 
 ```
 mkdir stakkr
