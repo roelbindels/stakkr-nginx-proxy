@@ -15,7 +15,7 @@ services:
             - /etc/nginx/conf.d
             - /etc/nginx/vhost.d
             - /usr/share/nginx/html
-            - ./conf/proxy/certs/:/etc/nginx/certs:ro
+            - ${COMPOSE_BASE_DIR}/data/certs/:/etc/nginx/certs:ro
         hostname: nginx
         networks:
             - proxy-tier
@@ -31,7 +31,7 @@ services:
         volumes_from:
             - nginx
         volumes:
-            - ./conf/proxy/templates/nginx.tmpl:/etc/docker-gen/templates/nginx.tmpl:ro
+            - ${COMPOSE_BASE_DIR}/plugins/nginx_proxy/static/templates/nginx.tmpl:/etc/docker-gen/templates/nginx.tmpl:ro
             - /var/run/docker.sock:/tmp/docker.sock:ro
         hostname: nginx-gen
         entrypoint: /usr/local/bin/docker-gen -notify-sighup nginx -watch -wait 5s:30s /etc/docker-gen/templates/nginx.tmpl /etc/nginx/conf.d/default.conf
@@ -51,7 +51,7 @@ services:
         volumes_from:
             - nginx
         volumes:
-            - ./conf/proxy/certs/:/etc/nginx/certs:rw
+            - ${COMPOSE_BASE_DIR}/data/certs/:/etc/nginx/certs:rw
             - /var/run/docker.sock:/var/run/docker.sock:ro
         networks:
             - proxy-tier
