@@ -15,6 +15,7 @@ services:
             - /etc/nginx/conf.d
             - /etc/nginx/vhost.d
             - /usr/share/nginx/html
+            - ${COMPOSE_BASE_DIR}/plugins/nginx_proxy/static/templates/default_location:/etc/nginx/vhost.d/default_location
             - ${COMPOSE_BASE_DIR}/data/certs/:/etc/nginx/certs:ro
         hostname: nginx
         networks:
